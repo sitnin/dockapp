@@ -5,6 +5,7 @@ This experiment was performed because of lack of node.js containerization instru
 It:
 
 - doesn't contain unnecessary garbage
+- builds modern app (ok, now just with "imports") with babel before building an image
 - deploys something like common shared static assets which is mounted as a volume
 - creates directory for uploads which also can be mounted as a volume
 - capable of storing configuration files in a separate volume (which makes possible to deliver config changes without rebuilding and redeploying container itself)   
