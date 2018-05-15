@@ -16,7 +16,7 @@ COPY app/dist/* ./
 COPY app/package.json ./
 COPY entrypoint.sh ./
 
-COPY defaults /tmp/defaults
+COPY defaults /defaults
 
 RUN yarn install
 
